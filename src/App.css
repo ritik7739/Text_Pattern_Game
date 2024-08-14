@@ -1,0 +1,28 @@
+/* app.css */
+body {
+  background-color: #000;
+  color: #f00;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.led-display {
+  display: flex;
+  gap: 2px;
+}
+
+.led {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #000;
+  background-color: #000;
+  transition: background-color 0.2s ease;
+}
+
+.led.on {
+  background-color: #f00;
+}
